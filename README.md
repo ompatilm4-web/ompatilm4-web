@@ -16,9 +16,9 @@
 
 ## 🧠 About Me
 
-<table width="100%">
+<table>
 <tr>
-<td width="500" valign="center">
+<td valign="center">
 
 ```python
 class OmPatil:
@@ -43,8 +43,8 @@ class OmPatil:
 ```
 
 </td>
-<td width="500" valign="center" align="center">
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="500" alt="AI Engineer Animation"/>
+<td valign="center" align="center">
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300" alt="AI Engineer Animation"/>
 </td>
 </tr>
 </table>
