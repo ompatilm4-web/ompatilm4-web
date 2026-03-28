@@ -1,17 +1,14 @@
-##             Hi there 👋 , I'm Om Patil
+Hi, I'm OM Patil 👋
+I'm an AI Developer passionate about building intelligent backends and turning data into insights.
+Currently open to full-time roles, freelance projects, and open source collaborations.
 
 
-<!--
-**ompatilm4-web/ompatilm4-web** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🛠️ Tech Stack
+Languages: Python
+Frameworks: FastAPI
+Focus Areas: Data Analysis, REST APIs, AI/ML Integration
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📌 What I'm Up To
+🔭 Building AI-powered backend services with FastAPI
+📊 Exploring data analysis and visualization
+🌱 Always learning something new in the AI/ML space
