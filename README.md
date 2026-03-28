@@ -64,24 +64,7 @@ class OmPatil:
 
 ---
 
-## 📊 GitHub Stats
 
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ompatil&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ompatil&layout=compact&theme=radical&hide_border=true&bg_color=0D1117"/>
-
-</div>
-
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com?user=ompatil&theme=radical&hide_border=true&background=0D1117)
-
-</div>
-
----
-
-<div align="center">
 
 ### 💜 Thanks for visiting! Drop a ⭐ if you find something useful.
 
