@@ -39,6 +39,8 @@ class OmPatil:
 
 ---
 
+<div align="center">
+
 ## 🛠️ Tech Stack & Tools
 
 ### 🤖 AI / ML
@@ -62,11 +64,11 @@ class OmPatil:
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
+</div>
+
 ---
 
-
-
-### 💜 Thanks for visiting! Drop a ⭐ if you find something useful.
+<div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:EC4899,100:8B5CF6&height=100&section=footer" width="100%"/>
 
