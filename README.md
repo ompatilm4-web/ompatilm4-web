@@ -16,34 +16,35 @@
 
 ## 🧠 About Me
 
-<table>
+<table width="100%">
 <tr>
-<td valign="center" width="60%">
+<td width="500" valign="center">
 
 ```python
 class OmPatil:
     name        = "Om Patil"
     role        = "AI Engineer"
     location    = "India 🇮🇳"
-    passion     = ["LLMs", "Generative AI", "MLOps", "Building cool stuff"]
+    passion     = ["LLMs", "Generative AI",
+                   "MLOps", "Building cool stuff"]
 
     def say_hi(self):
         print("Hey there! I'm Om 👋")
-        print("I turn caffeine ☕ and curiosity 🔍 into intelligent systems 🤖")
-        print("Currently obsessed with making AI that actually works in the real world.")
+        print("I turn caffeine ☕ and curiosity 🔍")
+        print("into intelligent systems 🤖")
 
     def currently(self):
         return {
-            "🔭 working_on"  : "AI Agents & LLM-powered applications",
-            "🌱 learning"    : "Multimodal models & Reinforcement Learning",
-            "💬 ask_me_about": "AI, ML, Python, anything nerdy",
-            "⚡ fun_fact"    : "I debug AI so you don't have to 😄"
+            "🔭 working_on"  : "AI Agents & LLMs",
+            "🌱 learning"    : "Multimodal models",
+            "💬 ask_me_about": "AI, ML, Python",
+            "⚡ fun_fact"    : "I debug AI so you don't 😄"
         }
 ```
 
 </td>
-<td valign="center" width="40%">
-  <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="100%" alt="AI Engineer Animation"/>
+<td width="500" valign="center" align="center">
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="500" alt="AI Engineer Animation"/>
 </td>
 </tr>
 </table>
