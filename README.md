@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Wave banner with name -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:6366f1,100:0ea5e9&height=220&section=header&text=Om%20Patil&fontSize=62&fontAlignY=38&fontColor=ffffff&desc=AI%20Engineer%20%26%20Builder&descAlignY=58&descSize=22&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=220&section=header&text=Om%20Patil&fontSize=62&fontAlignY=38&fontColor=ffffff&desc=AI%20Engineer%20%26%20Builder&descAlignY=58&descSize=22&animation=fadeIn" width="100%"/>
 
 <!-- Typing animation -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Building+Intelligent+Systems+%F0%9F%A4%96;LLMs+%7C+Gen+AI+%7C+MLOps+%7C+Python;Turning+ideas+into+AI+products+%F0%9F%9A%80;AI+Engineer+based+in+India+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing SVG"/>
