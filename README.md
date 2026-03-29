@@ -1,62 +1,97 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:EC4899,100:06B6D4&height=120&section=header&fontSize=60&fontColor=ffffff" width="100%"/>
-
-</div>
-
-<div align="center">
-
-<svg width="860" height="120" viewBox="0 0 860 120" xmlns="http://www.w3.org/2000/svg">
-  <rect width="860" height="120" rx="12" fill="#0a0a0a"/>
-  <!-- LED grid dots -->
-  <rect width="860" height="120" rx="12" fill="url(#dots)" opacity="0.18"/>
+<svg width="700" height="160" viewBox="0 0 700 160" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <pattern id="dots" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
-      <circle cx="5" cy="5" r="1" fill="#00ff41"/>
-    </pattern>
-    <!-- Glow filter -->
     <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <!-- Scanline overlay -->
-    <pattern id="scanlines" x="0" y="0" width="860" height="4" patternUnits="userSpaceOnUse">
-      <rect width="860" height="2" fill="black" opacity="0.15"/>
+    <pattern id="scanlines" x="0" y="0" width="700" height="4" patternUnits="userSpaceOnUse">
+      <rect width="700" height="2" fill="black" opacity="0.08"/>
     </pattern>
   </defs>
 
-  <!-- Outer LED border glow -->
-  <rect x="2" y="2" width="856" height="116" rx="11" fill="none" stroke="#00ff41" stroke-width="1.5" opacity="0.4"/>
-  <rect x="5" y="5" width="850" height="110" rx="10" fill="none" stroke="#00ff41" stroke-width="0.5" opacity="0.2"/>
+  <!-- Terminal window background -->
+  <rect width="700" height="160" rx="14" fill="#0d0d0d"/>
 
-  <!-- Scrolling marquee text -->
-  <clipPath id="clip">
-    <rect x="20" y="0" width="820" height="120"/>
-  </clipPath>
-  <g clip-path="url(#clip)" filter="url(#glow)">
-    <!-- Main scrolling text -->
-    <text font-family="'Courier New', Courier, monospace" font-size="42" font-weight="bold" fill="#00ff41" y="72" letter-spacing="3">
-      <tspan>👋 Hi there! I'm OM PATIL &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp; 🤖 AI Engineer &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp; 👋 Hi there! I'm OM PATIL &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp; 🤖 AI Engineer &nbsp;&nbsp;&nbsp;</tspan>
-      <animate attributeName="x" from="860" to="-2200" dur="14s" repeatCount="indefinite"/>
-    </text>
-    <!-- Shadow/echo layer for LED depth -->
-    <text font-family="'Courier New', Courier, monospace" font-size="42" font-weight="bold" fill="#005c1a" y="74" letter-spacing="3" opacity="0.5">
-      <tspan>👋 Hi there! I'm OM PATIL &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp; 🤖 AI Engineer &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp; 👋 Hi there! I'm OM PATIL &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp; 🤖 AI Engineer &nbsp;&nbsp;&nbsp;</tspan>
-      <animate attributeName="x" from="860" to="-2200" dur="14s" repeatCount="indefinite"/>
-    </text>
-  </g>
+  <!-- Title bar -->
+  <rect width="700" height="36" rx="14" fill="#1e1e1e"/>
+  <rect y="22" width="700" height="14" fill="#1e1e1e"/>
 
-  <!-- Scanline effect overlay -->
-  <rect width="860" height="120" rx="12" fill="url(#scanlines)" opacity="1"/>
+  <!-- Traffic lights -->
+  <circle cx="24" cy="18" r="7" fill="#ff5f57"/>
+  <circle cx="46" cy="18" r="7" fill="#ffbd2e"/>
+  <circle cx="68" cy="18" r="7" fill="#28c840"/>
 
-  <!-- Corner brackets for LED display look -->
-  <polyline points="20,10 10,10 10,20" fill="none" stroke="#00ff41" stroke-width="2" opacity="0.8"/>
-  <polyline points="840,10 850,10 850,20" fill="none" stroke="#00ff41" stroke-width="2" opacity="0.8"/>
-  <polyline points="20,110 10,110 10,100" fill="none" stroke="#00ff41" stroke-width="2" opacity="0.8"/>
-  <polyline points="840,110 850,110 850,100" fill="none" stroke="#00ff41" stroke-width="2" opacity="0.8"/>
+  <!-- Title bar text -->
+  <text x="350" y="23" font-family="'Courier New', monospace" font-size="12" fill="#666" text-anchor="middle">om@portfolio ~ zsh</text>
+
+  <!-- Scanlines -->
+  <rect width="700" height="160" rx="14" fill="url(#scanlines)"/>
+
+  <!-- H -->
+  <text x="40" y="108" font-family="'Courier New',monospace" font-size="52" font-weight="bold" fill="#00ff41" filter="url(#glow)" opacity="0">H
+    <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.1s" begin="0.3s" fill="freeze"/>
+  </text>
+  <!-- i -->
+  <text x="76" y="108" font-family="'Courier New',monospace" font-size="52" font-weight="bold" fill="#00ff41" filter="url(#glow)" opacity="0">i
+    <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.1s" begin="0.55s" fill="freeze"/>
+  </text>
+  <!-- space -->
+  <!-- I -->
+  <text x="120" y="108" font-family="'Courier New',monospace" font-size="52" font-weight="bold" fill="#00e5ff" filter="url(#glow)" opacity="0">I
+    <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.1s" begin="0.9s" fill="freeze"/>
+  </text>
+  <!-- ' -->
+  <text x="145" y="108" font-family="'Courier New',monospace" font-size="52" font-weight="bold" fill="#00e5ff" filter="url(#glow)" opacity="0">'
+    <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.1s" begin="1.1s" fill="freeze"/>
+  </text>
+  <!-- m -->
+  <text x="163" y="108" font-family="'Courier New',monospace" font-size="52" font-weight="bold" fill="#00e5ff" filter="url(#glow)" opacity="0">m
+    <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.1s" begin="1.3s" fill="freeze"/>
+  </text>
+  <!-- space -->
+  <!-- O -->
+  <text x="220" y="108" font-family="'Courier New',monospace" font-size="52" font-weight="bold" fill="#ff79c6" filter="url(#glow)" opacity="0">O
+    <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.1s" begin="1.65s" fill="freeze"/>
+  </text>
+  <!-- m -->
+  <text x="256" y="108" font-family="'Courier New',monospace" font-size="52" font-weight="bold" fill="#ff79c6" filter="url(#glow)" opacity="0">m
+    <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.1s" begin="1.85s" fill="freeze"/>
+  </text>
+  <!-- space -->
+  <!-- P -->
+  <text x="313" y="108" font-family="'Courier New',monospace" font-size="52" font-weight="bold" fill="#ffb86c" filter="url(#glow)" opacity="0">P
+    <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.1s" begin="2.15s" fill="freeze"/>
+  </text>
+  <!-- a -->
+  <text x="349" y="108" font-family="'Courier New',monospace" font-size="52" font-weight="bold" fill="#ffb86c" filter="url(#glow)" opacity="0">a
+    <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.1s" begin="2.35s" fill="freeze"/>
+  </text>
+  <!-- t -->
+  <text x="378" y="108" font-family="'Courier New',monospace" font-size="52" font-weight="bold" fill="#ffb86c" filter="url(#glow)" opacity="0">t
+    <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.1s" begin="2.55s" fill="freeze"/>
+  </text>
+  <!-- i -->
+  <text x="400" y="108" font-family="'Courier New',monospace" font-size="52" font-weight="bold" fill="#ffb86c" filter="url(#glow)" opacity="0">i
+    <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.1s" begin="2.75s" fill="freeze"/>
+  </text>
+  <!-- l -->
+  <text x="420" y="108" font-family="'Courier New',monospace" font-size="52" font-weight="bold" fill="#ffb86c" filter="url(#glow)" opacity="0">l
+    <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.1s" begin="2.95s" fill="freeze"/>
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect x="447" y="62" width="4" height="50" fill="#00ff41" opacity="1">
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="3.1s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="100;100;100;100;100;447" keyTimes="0;0.1;0.3;0.5;0.7;1" dur="3.1s" fill="freeze"/>
+  </rect>
+
+  <!-- Border glow -->
+  <rect x="1" y="1" width="698" height="158" rx="13" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.25"/>
 </svg>
 
 </div>
