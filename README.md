@@ -1,6 +1,63 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:EC4899,100:06B6D4&height=200&section=header&text=Om%20Patil&fontSize=60&fontAlignY=35&desc=AI%20Engineer&descAlignY=55&descSize=22&fontColor=ffffff&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:EC4899,100:06B6D4&height=120&section=header&fontSize=60&fontColor=ffffff" width="100%"/>
+
+</div>
+
+<div align="center">
+
+<svg width="860" height="120" viewBox="0 0 860 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="120" rx="12" fill="#0a0a0a"/>
+  <!-- LED grid dots -->
+  <rect width="860" height="120" rx="12" fill="url(#dots)" opacity="0.18"/>
+  <defs>
+    <pattern id="dots" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="1" fill="#00ff41"/>
+    </pattern>
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Scanline overlay -->
+    <pattern id="scanlines" x="0" y="0" width="860" height="4" patternUnits="userSpaceOnUse">
+      <rect width="860" height="2" fill="black" opacity="0.15"/>
+    </pattern>
+  </defs>
+
+  <!-- Outer LED border glow -->
+  <rect x="2" y="2" width="856" height="116" rx="11" fill="none" stroke="#00ff41" stroke-width="1.5" opacity="0.4"/>
+  <rect x="5" y="5" width="850" height="110" rx="10" fill="none" stroke="#00ff41" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Scrolling marquee text -->
+  <clipPath id="clip">
+    <rect x="20" y="0" width="820" height="120"/>
+  </clipPath>
+  <g clip-path="url(#clip)" filter="url(#glow)">
+    <!-- Main scrolling text -->
+    <text font-family="'Courier New', Courier, monospace" font-size="42" font-weight="bold" fill="#00ff41" y="72" letter-spacing="3">
+      <tspan>👋 Hi there! I'm OM PATIL &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp; 🤖 AI Engineer &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp; 👋 Hi there! I'm OM PATIL &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp; 🤖 AI Engineer &nbsp;&nbsp;&nbsp;</tspan>
+      <animate attributeName="x" from="860" to="-2200" dur="14s" repeatCount="indefinite"/>
+    </text>
+    <!-- Shadow/echo layer for LED depth -->
+    <text font-family="'Courier New', Courier, monospace" font-size="42" font-weight="bold" fill="#005c1a" y="74" letter-spacing="3" opacity="0.5">
+      <tspan>👋 Hi there! I'm OM PATIL &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp; 🤖 AI Engineer &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp; 👋 Hi there! I'm OM PATIL &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp; 🤖 AI Engineer &nbsp;&nbsp;&nbsp;</tspan>
+      <animate attributeName="x" from="860" to="-2200" dur="14s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Scanline effect overlay -->
+  <rect width="860" height="120" rx="12" fill="url(#scanlines)" opacity="1"/>
+
+  <!-- Corner brackets for LED display look -->
+  <polyline points="20,10 10,10 10,20" fill="none" stroke="#00ff41" stroke-width="2" opacity="0.8"/>
+  <polyline points="840,10 850,10 850,20" fill="none" stroke="#00ff41" stroke-width="2" opacity="0.8"/>
+  <polyline points="20,110 10,110 10,100" fill="none" stroke="#00ff41" stroke-width="2" opacity="0.8"/>
+  <polyline points="840,110 850,110 850,100" fill="none" stroke="#00ff41" stroke-width="2" opacity="0.8"/>
+</svg>
 
 </div>
 
