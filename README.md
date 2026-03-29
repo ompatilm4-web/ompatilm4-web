@@ -1,137 +1,10 @@
 <div align="center">
 
-<svg width="100%" viewBox="0 0 860 260" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#161b22"/>
-    </linearGradient>
-    <linearGradient id="sideAccent" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0ea5e9"/>
-      <stop offset="100%" stop-color="#6366f1"/>
-    </linearGradient>
-    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#e2e8f0"/>
-      <stop offset="60%"  stop-color="#f1f5f9"/>
-      <stop offset="100%" stop-color="#94a3b8"/>
-    </linearGradient>
-    <linearGradient id="underline" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#0ea5e9"/>
-      <stop offset="100%" stop-color="#6366f1"/>
-    </linearGradient>
-    <clipPath id="cname">
-      <rect x="0" y="60" width="0" height="110">
-        <animate attributeName="width" from="0" to="860" dur="1.4s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1"/>
-      </rect>
-    </clipPath>
-    <clipPath id="csub">
-      <rect x="230" y="168" width="0" height="50">
-        <animate attributeName="width" from="0" to="400" dur="1s" begin="1.8s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1"/>
-      </rect>
-    </clipPath>
-    <clipPath id="ctags">
-      <rect x="0" y="208" width="0" height="50">
-        <animate attributeName="width" from="0" to="860" dur="1s" begin="2.6s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1"/>
-      </rect>
-    </clipPath>
-  </defs>
+<!-- Wave banner with name -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:6366f1,100:0ea5e9&height=220&section=header&text=Om%20Patil&fontSize=62&fontAlignY=38&fontColor=ffffff&desc=AI%20Engineer%20%26%20Builder&descAlignY=58&descSize=22&animation=fadeIn" width="100%"/>
 
-  <!-- Background -->
-  <rect width="860" height="260" rx="0" fill="url(#bg2)"/>
-
-  <!-- Left accent bar -->
-  <rect x="0" y="0" width="5" height="260" fill="url(#sideAccent)"/>
-
-  <!-- Circuit lines — right side decoration -->
-  <g stroke="#0ea5e9" stroke-width="0.7" fill="none" opacity="0.18">
-    <line x1="610" y1="20"  x2="840" y2="20"/>
-    <line x1="840" y1="20"  x2="840" y2="80"/>
-    <line x1="680" y1="45"  x2="840" y2="45"/>
-    <line x1="730" y1="80"  x2="840" y2="80"/>
-    <line x1="730" y1="80"  x2="730" y2="180"/>
-    <line x1="610" y1="180" x2="730" y2="180"/>
-    <line x1="660" y1="140" x2="730" y2="140"/>
-    <line x1="610" y1="220" x2="800" y2="220"/>
-    <line x1="800" y1="200" x2="800" y2="220"/>
-  </g>
-  <!-- Circuit nodes -->
-  <g fill="#0ea5e9" opacity="0.45">
-    <circle cx="840" cy="20"  r="3"/>
-    <circle cx="840" cy="80"  r="3"/>
-    <circle cx="730" cy="80"  r="3"/>
-    <circle cx="730" cy="180" r="3"/>
-    <circle cx="800" cy="220" r="3"/>
-  </g>
-  <g fill="#6366f1" opacity="0.45">
-    <circle cx="730" cy="140" r="2.5"/>
-    <circle cx="610" cy="180" r="2.5"/>
-  </g>
-
-  <!-- Subtle horizontal rules -->
-  <line x1="20" y1="55"  x2="600" y2="55"  stroke="#ffffff" stroke-width="0.4" opacity="0.06"/>
-  <line x1="20" y1="205" x2="600" y2="205" stroke="#ffffff" stroke-width="0.4" opacity="0.06"/>
-
-  <!-- Name — center, wipe in -->
-  <g clip-path="url(#cname)">
-    <text
-      x="430" y="155"
-      font-family="Georgia, 'Times New Roman', serif"
-      font-size="72"
-      font-weight="700"
-      text-anchor="middle"
-      fill="url(#nameGrad)"
-      letter-spacing="4">Om Patil</text>
-  </g>
-
-  <!-- Underline accent — animates in after name -->
-  <rect x="230" y="163" width="0" height="2.5" rx="1" fill="url(#underline)">
-    <animate attributeName="width" from="0" to="400" dur="0.9s" begin="1.6s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1"/>
-  </rect>
-
-  <!-- Subtitle — centered, wipe in -->
-  <g clip-path="url(#csub)">
-    <text
-      x="430" y="192"
-      font-family="'Courier New', Courier, monospace"
-      font-size="13"
-      font-weight="400"
-      text-anchor="middle"
-      fill="#38bdf8"
-      letter-spacing="6">AI  ENGINEER  &amp;  BUILDER</text>
-  </g>
-
-  <!-- Tag pills — fade in -->
-  <g clip-path="url(#ctags)">
-    <rect x="222" y="213" width="68"  height="22" rx="11" fill="#0ea5e9" opacity="0.12"/>
-    <rect x="222" y="213" width="68"  height="22" rx="11" fill="none" stroke="#0ea5e9" stroke-width="0.7"/>
-    <text x="256" y="228" font-family="'Courier New', monospace" font-size="11" fill="#7dd3fc" text-anchor="middle">LLMs</text>
-
-    <rect x="300" y="213" width="78"  height="22" rx="11" fill="#6366f1" opacity="0.12"/>
-    <rect x="300" y="213" width="78"  height="22" rx="11" fill="none" stroke="#6366f1" stroke-width="0.7"/>
-    <text x="339" y="228" font-family="'Courier New', monospace" font-size="11" fill="#a5b4fc" text-anchor="middle">Gen AI</text>
-
-    <rect x="388" y="213" width="78"  height="22" rx="11" fill="#0ea5e9" opacity="0.12"/>
-    <rect x="388" y="213" width="78"  height="22" rx="11" fill="none" stroke="#0ea5e9" stroke-width="0.7"/>
-    <text x="427" y="228" font-family="'Courier New', monospace" font-size="11" fill="#7dd3fc" text-anchor="middle">MLOps</text>
-
-    <rect x="476" y="213" width="78"  height="22" rx="11" fill="#6366f1" opacity="0.12"/>
-    <rect x="476" y="213" width="78"  height="22" rx="11" fill="none" stroke="#6366f1" stroke-width="0.7"/>
-    <text x="515" y="228" font-family="'Courier New', monospace" font-size="11" fill="#a5b4fc" text-anchor="middle">Python</text>
-
-    <rect x="564" y="213" width="70"  height="22" rx="11" fill="#0ea5e9" opacity="0.12"/>
-    <rect x="564" y="213" width="70"  height="22" rx="11" fill="none" stroke="#0ea5e9" stroke-width="0.7"/>
-    <text x="599" y="228" font-family="'Courier New', monospace" font-size="11" fill="#7dd3fc" text-anchor="middle">India</text>
-  </g>
-
-  <!-- Bottom tagline -->
-  <text x="430" y="252" font-family="'Courier New', monospace" font-size="10" text-anchor="middle" fill="#334155" letter-spacing="2" opacity="0">
-    while(alive) { learn(); build(); ship(); }
-    <animate attributeName="opacity" values="0;1" dur="1.2s" begin="3.4s" fill="freeze"/>
-  </text>
-
-  <!-- Outer border -->
-  <rect x="0.5" y="0.5" width="859" height="259" fill="none" stroke="#1e293b" stroke-width="1"/>
-</svg>
+<!-- Typing animation -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Building+Intelligent+Systems+%F0%9F%A4%96;LLMs+%7C+Gen+AI+%7C+MLOps+%7C+Python;Turning+ideas+into+AI+products+%F0%9F%9A%80;AI+Engineer+based+in+India+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing SVG"/>
 
 </div>
 
@@ -203,6 +76,6 @@ class OmPatil:
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:EC4899,100:8B5CF6&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:6366f1,100:0ea5e9&height=100&section=footer" width="100%"/>
 
 </div>
