@@ -71,8 +71,6 @@ class OmPatil:
 
 ---
 
-<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:6366f1,100:0ea5e9&height=100&section=footer" width="100%"/>
 
 </div>
